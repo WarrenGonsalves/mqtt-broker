@@ -1,0 +1,17 @@
+{
+  "name": "mqtt-server",
+  "version": "1.0.0",
+  "description": "Mqtt broker",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.1",
+    "mosca": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "ws",
+  "license": "ISC"
+}
